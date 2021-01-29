@@ -19,4 +19,4 @@ console.log('Sample code!');
 __Polytechnic College__ (_Grodno, BY_) - T0301.06 Maintenance of programmed machine tools and robotic systems
 
 ## Language
-English - Pre-Intermediate
+__English__ - Pre-Intermediate
