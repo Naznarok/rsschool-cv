@@ -1,0 +1,57 @@
+body {
+
+    color: #c8c8c8;
+    background: #222;
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 48px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+footer {
+    margin-top: 48px;
+}
+
+#content {
+    max-width: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+li {
+    list-style: square;
+}
+
+#code {
+    background: #1f1f1f;
+    padding: 10px 0 10px 10px;
+    margin-top: 0px;
+    color: gold;
+}
+
+#av {
+    width: 148px;
+    border-radius: 148px;
+    margin: 24px auto 24px auto;
+    display: block;
+}
