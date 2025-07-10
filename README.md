@@ -1,3 +1,5 @@
+https://naznarok.github.io/rsschool-cv/
+
 ## Aliaksei K.  
  - Telegram: @naznarok
  - Email: naznarok@yandex.ru
