@@ -3,7 +3,16 @@
  - Email: naznarok@yandex.ru
 
 ## About me
-I work as a system administrator in a company engaged in the production and sale of kitchen furniture. My responsibilities include maintaining servers and equipment installed in numerous retail outlets, call centers and production facilities.
+I work as a **System Administrator** at a company specializing in the **manufacturing and sale of kitchen furniture**.
+
+### Responsibilities:
+- Maintain and support **servers and IT infrastructure** across:
+  - Retail outlets  
+  - Call centers  
+  - Production facilities  
+- Ensure **stable operation**, **minimal downtime**, and **optimal system performance**
+- Provide **technical support** and resolve issues in a distributed IT environment
+- Coordinate with local and remote teams to maintain seamless connectivity across all business units
 
 ## Technical skills
  - JS basics
