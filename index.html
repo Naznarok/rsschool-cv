@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CV" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Technical Skills</a></li>
+        <li><a href="#samples">Code Samples</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="profile">
+      <img class="avatar" src="./images/avatar.jpg" alt="Photo of Aliaksei K." />
+      <div class="wrapper">
+        <h1>Aliaksei K.</h1>
+        <ul>
+          <li>Telegram: @naznarok</li>
+          <li>Email: naznarok@yandex.ru</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2 id="about">About Me</h2>
+      <p>I work as a System Administrator at a company specializing in the manufacturing and sale of kitchen furniture.</p>
+      <h2>Responsibilities</h2>
+      <ul>
+        <li>Maintain and support servers and IT infrastructure across retail outlets, call centers, and production facilities.</li>
+        <li>Ensure stable operation, minimal downtime, and optimal system performance.</li>
+        <li>Provide technical support and troubleshoot issues within a distributed IT environment.</li>
+        <li>Coordinate with local and remote teams to maintain seamless connectivity across all business units.</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="skills">Technical Skills</h2>
+      <ul>
+        <li>HTML basics</li>
+        <li>JavaScript basics</li>
+        <li>TypeScript basics</li>
+      </ul>
+      <h2 id="samples">Code Sample</h2>
+      <pre><code class="language-typescript">
+export class BaseUnit extends Unit {
+  constructor(name: string, data: Partial<UnitSchema>) {
+    super(name, 'BASE', {
+      ...data,
+    });
+    this.init();
+  }
+
+  override init() {}
+}
+      </code></pre>
+    </section>
+    <section>
+      <h2 id="education">Education</h2>
+      <ul>
+        <li>27.06.2002 – Polytechnic College (Grodno, BY) – Maintenance of programmed machine tools and robotic systems</li>
+      </ul>
+
+      <h2>Languages</h2>
+      <ul>
+        <li>English – Pre-Intermediate</li>
+        <li>Polish – Pre-Intermediate</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/naznarok" target="_blank">github.com/naznarok</a>
+    <p>&copy; 2025</p>
+    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+      <img src="./images/rs-school-logo.svg" alt="RS School Logo" width="80" />
+    </a>
+  </footer>
+</body>
 </html>
